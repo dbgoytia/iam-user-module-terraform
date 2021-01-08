@@ -1,22 +1,21 @@
 # --------------------------------------
 # AWS Backend configuration
 # --------------------------------------
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-      region = "us-east-1"
-    }
-  }
-  backend "s3" {}
-}
+#terraform {
+#  required_providers {
+#    aws = {
+#      source = "hashicorp/aws"
+#      region = "us-east-1"
+#    }
+#  }
+#}
 
 # --------------------------------------
 # AWS Provider
 # --------------------------------------
-provider "aws" {
-  region = "us-east-1"
-}
+#rovider "aws" {
+#  region = "us-east-1"
+#}
 
 
 
